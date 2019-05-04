@@ -6,6 +6,6 @@ app.use('/myapp', myRouter);
 //Serves static content from directory public
 app.use('/myapp', express.static('public'));
 
-app.listen(3000, function ServerListener() {
+app.listen(3036, function ServerListener() {
     console.log('Sample App with router. This app serves static content');
 });
